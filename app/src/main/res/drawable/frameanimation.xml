@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<animation-list xmlns:android="http://schemas.android.com/apk/res/android"
+    android:oneshot="false">
+    <item android:drawable="@drawable/rkof" android:duration="200" />
+    <item android:drawable="@drawable/qkof" android:duration="200" />
+    <item android:drawable="@drawable/pkof" android:duration="200" />
+    <item android:drawable="@drawable/okof" android:duration="200" />
+</animation-list>
+<!-- android:oneshot属性为true,它将会在最后一帧停下来，如果设置
+为false这个动画将循环播放 -->

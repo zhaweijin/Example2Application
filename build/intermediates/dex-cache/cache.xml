@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        is-multidex="true"
+        jar="/Users/dm-md/AndroidStudioProjects/Example2Application/app/libs/classes_50.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="02338413fa37152b53dca3de4b2cb460abac3aab">
+        <dex dex="/Users/dm-md/AndroidStudioProjects/Example2Application/app/build/intermediates/transforms/dex/flavors_default/debug/folders/1000/2/classes_50_d39e7743b4318eba98c7a20c46da99acf20db458/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/dm-md/AndroidStudioProjects/Example2Application/app/libs/classes_42.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="f15c22adeabcecef9d588c36182aac523a76f956">
+        <dex dex="/Users/dm-md/AndroidStudioProjects/Example2Application/app/build/intermediates/transforms/dex/flavors_default/debug/folders/1000/2/classes_42_2416654bd7687c505d2d6771d77074d9dc1ef21d/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Applications/Android Studio2.3.app/Contents/gradle/m2repository/com/google/guava/guava/18.0/guava-18.0.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="cce0823396aa693798f8882e64213b1772032b09">
+        <dex dex="/Users/dm-md/AndroidStudioProjects/Example2Application/app/build/intermediates/transforms/dex/flavors_default/debug/folders/1000/10/guava-18.0_aac2e8000bad52b1e018ac6ef736286d6eb03d71/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/dm-md/AndroidStudioProjects/Example2Application/app/build/intermediates/incremental-runtime-classes/flavors_default/debug/instant-run.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="c82741bc129dd5f99f11a4ab8666ae24262053b6">
+        <dex dex="/Users/dm-md/AndroidStudioProjects/Example2Application/app/build/intermediates/transforms/dex/flavors_default/debug/folders/1000/10000/instant-run_3ffc4e0234bccd513b5514e2ffc93ca206b6a507/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/dm-md/AndroidStudioProjects/Example2Application/app/libs/hiveview_eth_manager_rtk.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="ccc700ea11e7b16866e8e12a2d62fdeb046d8afd">
+        <dex dex="/Users/dm-md/AndroidStudioProjects/Example2Application/app/build/intermediates/transforms/dex/flavors_default/debug/folders/1000/2/hiveview_eth_manager_rtk_09620cf8eb9e946a5033742b518b209fc9c8bb8d/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/dm-md/AndroidStudioProjects/Example2Application/app/build/intermediates/incremental-classes/flavors_default/debug/instant-run-bootstrap.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="a05583f3098f12f8a7799181cc191b5c4f811d40">
+        <dex dex="/Users/dm-md/AndroidStudioProjects/Example2Application/app/build/intermediates/transforms/dex/flavors_default/debug/folders/1000/10000/instant-run-bootstrap_dc79026fa783cf8f7dc552393713edc56c689fc4/classes.dex" />
+    </item>
+
+</items>
