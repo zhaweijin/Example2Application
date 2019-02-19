@@ -1,4 +1,4 @@
-package com.example2.test.main;
+package com.example2.test.messagerIPC;
 
 import android.app.Activity;
 import android.content.ComponentName;

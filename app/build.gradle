@@ -16,27 +16,36 @@ android {
         multiDexEnabled true
     }
 
-    productFlavors {
 
-        //默认版本,不设置 applicationId ,继承 defaultConfig 中的配置
-        flavors_default {
+    signingConfigs {
+        release {
+            storeFile file("../signature/carter.jks")
+            storePassword 'carter'
+            keyAlias 'carter'
+            keyPassword 'carter'
         }
 
-        //开发版本, applicationId 替换为 com.littlejie.multichannel.dev
-        /*flavors_dev {
-            applicationId "com.example2.test.dev"
-        }*/
-
-        //发布版本, applicationId 替换为 com.littlejie.multichannel.release
-        /*flavors_release {
-            applicationId "com.example2.test.release"
-        }*/
+        debug {
+            storeFile file("../signature/carter.jks")
+            storePassword 'carter'
+            keyAlias 'carter'
+            keyPassword 'carter'
+        }
     }
+
+
 
     buildTypes {
         release {
+            //签名
+            signingConfig signingConfigs.release
+
             minifyEnabled false
             proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
+        }
+
+        debug {
+            debuggable true
         }
     }
 
@@ -55,6 +64,7 @@ dependencies {
         exclude group: 'com.android.support', module: 'support-annotations'
     })
     compile 'com.android.support:appcompat-v7:25.+'
+    compile 'com.android.support:recyclerview-v7:25.3.1'
     compile 'com.android.support.constraint:constraint-layout:1.0.2'
     testCompile 'junit:junit:4.12'
     //bind view
@@ -80,6 +90,5 @@ dependencies {
     compile 'com.blankj:utilcode:1.11.1'
     //爬虫
     compile 'org.jsoup:jsoup:1.10.2'
-    compile files('libs/classes_42.jar')
-    compile files('libs/classes_50.jar')
+    compile 'com.alipay.euler:andfix:0.5.0@aar'
 }

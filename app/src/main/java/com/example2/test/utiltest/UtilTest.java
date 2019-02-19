@@ -5,6 +5,7 @@ import android.content.Intent;
 import android.os.Bundle;
 import android.support.annotation.Nullable;
 import android.util.Log;
+import android.util.TimeUtils;
 
 import com.blankj.utilcode.constant.PermissionConstants;
 import com.blankj.utilcode.util.LogUtils;
@@ -33,6 +34,9 @@ public class UtilTest extends BaseActivity {
 
         Log.v("test", "ping ---" + NetworkUtils.isAvailableByPing());
 
+
+
+
         /**
          * 请求的权限，对应AndroidManifest.xml定义的申请，两边都需要有
          */
@@ -41,6 +45,9 @@ public class UtilTest extends BaseActivity {
         PUtils.print("");
 
         LogUtils.v("");
+
+
+
 
 
     }

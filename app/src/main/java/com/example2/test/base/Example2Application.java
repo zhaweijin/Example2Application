@@ -3,8 +3,10 @@ package com.example2.test.base;
 import android.app.Application;
 import android.content.Context;
 import android.support.multidex.MultiDex;
+import android.view.WindowManager;
 
 import com.blankj.utilcode.util.Utils;
+import com.example2.test.andfix.AndFixManager;
 import com.example2.test.di.component.AppComponent;
 import com.example2.test.di.component.DaggerAppComponent;
 import com.example2.test.di.module.AppModule;
@@ -27,6 +29,11 @@ public class Example2Application extends Application {
                 .build();
     }
 
+    private WindowManager.LayoutParams wmParams=new WindowManager.LayoutParams();
+    public WindowManager.LayoutParams getMywmParams(){
+        return wmParams;
+    }
+
 
     public static Example2Application getsInstance() {
         return sInstance;
@@ -43,6 +50,8 @@ public class Example2Application extends Application {
         sInstance = this;
         Utils.init(sInstance);
         setupCompoent();
+
+        AndFixManager.getInstance().init(this);
     }
 
 
@@ -57,6 +66,9 @@ public class Example2Application extends Application {
         MultiDex.install(base);
         super.attachBaseContext(base);
     }
+
+
+
 
 
 

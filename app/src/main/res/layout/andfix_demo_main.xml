@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:clipChildren="false"
+    tools:context="com.example2.test.main.MainActivity">
+
+    <Button
+        android:id="@+id/bug"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="bug"
+        android:layout_centerInParent="true" />
+
+
+    <Button
+        android:id="@+id/fix"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:text="fix"
+        android:layout_below="@+id/bug" />
+
+
+
+</RelativeLayout>
