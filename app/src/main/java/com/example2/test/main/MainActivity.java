@@ -1,38 +1,27 @@
 package com.example2.test.main;
 
 import android.app.Activity;
-import android.app.AlertDialog;
 import android.content.BroadcastReceiver;
 import android.content.ComponentName;
 import android.content.Context;
-import android.content.DialogInterface;
 import android.content.Intent;
 import android.content.IntentFilter;
 import android.media.AudioManager;
-import android.net.Uri;
 import android.os.Bundle;
 import android.os.SystemClock;
-import android.support.v4.app.FragmentActivity;
-import android.support.v7.app.AppCompatActivity;
 import android.util.DisplayMetrics;
 import android.util.Log;
-import android.view.LayoutInflater;
+import android.view.KeyEvent;
 import android.view.View;
 import android.widget.Button;
+import android.widget.FrameLayout;
+import android.widget.LinearLayout;
 import android.widget.Toast;
 
 
-import com.blankj.utilcode.util.ToastUtils;
 import com.example2.test.R;
-import com.example2.test.animal.RotationAnimalTest;
-import com.example2.test.floatwindow.FloatWindowTest;
-import com.example2.test.fragment.FGActivity;
-import com.example2.test.location.LocationTest;
-
-import java.text.DateFormat;
-import java.util.Date;
-import java.util.HashMap;
-import java.util.concurrent.ConcurrentHashMap;
+import com.example2.test.permission.RequestPermission;
+import com.example2.test.webview.WebTest;
 
 public class MainActivity extends Activity {
 
@@ -78,20 +67,76 @@ public class MainActivity extends Activity {
         return  (int)(1+Math.random()*(3600));
     }
 
+    int pos = 0;
+    private LinearLayout layout;
+    private int w;
+    private int h;
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
+        layout = (LinearLayout)findViewById(R.id.click);
+        w = layout.getLayoutParams().width;
+        h = layout.getLayoutParams().height;
+        Log.v("test","w="+w+",h="+h);
 
-        Log.v("test","time="+getRandomTime());
-        Button test = (Button)findViewById(R.id.test);
+
+        Button test = (Button) findViewById(R.id.test);
         test.setOnClickListener(new View.OnClickListener() {
             @Override
-            public void onClick(View v) {
-                exitAfterMany();
+            public void onClick(View view) {
+                FrameLayout.LayoutParams layoutParams = (FrameLayout.LayoutParams) layout.getLayoutParams();
+                layout.setRotation(90);
+                /*layoutParams.height = 1280;
+                layoutParams.width = 720;
+                layout.setLayoutParams(layoutParams);*/
+
             }
         });
+
+        //WebTest.launch(this);
+
+        //RequestPermission.launch(this);
+
+        //Log.v("test","time="+getRandomTime());
+        /*RelativeLayout click = (RelativeLayout)findViewById(R.id.click);
+        click.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Log.v("aa","wff232f32f");
+            }
+        });
+
+        List<String> list = new ArrayList<>();
+        list.add("http://192.168.31.107:80/a.jpg");
+        list.add("http://192.168.31.107:80/b.jpg");
+        list.add("http://192.168.31.107:80/c.jpg");
+
+
+
+        ImageView image = (ImageView)findViewById(R.id.image);
+        Glide.with(this).load(list.get(pos)).into(image);
+        pos++;
+
+        Disposable interval_disposable = io.reactivex.Observable.interval(8, TimeUnit.SECONDS)
+                .subscribeOn(Schedulers.io())
+                .observeOn(AndroidSchedulers.mainThread())
+                .subscribe(new Consumer<Long>() {
+                    @Override
+                    public void accept(Long aLong) {
+                        if(pos>=list.size()){
+                            pos=0;
+                        }
+                        Log.v("aa","p="+pos);
+                        ImageView image = (ImageView)findViewById(R.id.image);
+                        Glide.with(MainActivity.this).load(list.get(pos)).crossFade(2000).into(image);
+                        pos++;
+                    }
+                });*/
+
+
         //registerReceiver();
 
         //RotationAnimalTest.launch(this);
@@ -247,27 +292,38 @@ public class MainActivity extends Activity {
      * 连续点击多次退出
      */
     private void exitAfterMany() {
-        /**
-         * 实现多点击方法
-         * src 拷贝的源数组
-         * srcPos 从源数组的那个位置开始拷贝.
-         * dst 目标数组
-         * dstPos 从目标数组的那个位子开始写数据
-         * length 拷贝的元素的个数
-         */
-        Log.v("test","exit...");
+
+        //复位处理，超过规定的时间，把数组清空
+        long lasttime=0;
+        for (int i = 0; i < mHits.length ; i++) {
+            if(mHits[i]!=0){
+                lasttime = mHits[i];
+                break;
+            }
+        }
+        Log.v("test","#######lasttime="+lasttime);
+        long nowtime = SystemClock.uptimeMillis();
+        Log.v("test","nowtime="+nowtime);
+        if(lasttime>0 && (nowtime- lasttime > DURATION)){
+            mHits = new long[COUNTS];
+            Log.v("test","reset");
+        }
+
         System.arraycopy(mHits, 1, mHits, 0, mHits.length - 1);
         //实现左移，然后最后一个位置更新距离开机的时间，如果最后一个时间和最开始时间小于DURATION，即连续5次点击
-        mHits[mHits.length - 1] = SystemClock.uptimeMillis();//System.currentTimeMillis()
+        mHits[mHits.length - 1] = nowtime;
 
         for (int i = 0; i < mHits.length; i++) {
             Log.v("test","array "+mHits[i]);
         }
+
         if ((mHits[mHits.length - 1] - mHits[0] <= DURATION)) {
             String tips = "您已在[" + DURATION + "]ms内连续点击【" + mHits.length + "】次了！！！";
             Toast.makeText(MainActivity.this, tips, Toast.LENGTH_SHORT).show();
             finish();
         }
     }
+
+
 
 }

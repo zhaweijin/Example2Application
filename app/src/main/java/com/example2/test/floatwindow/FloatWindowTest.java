@@ -22,8 +22,8 @@ public class FloatWindowTest extends BaseActivity{
 
 
         Intent service = new Intent();
-        service.setClass(FloatWindowTest.this, FloatService.class);
-        startService(service);
+        /*service.setClass(FloatWindowTest.this, FloatService.class);
+        startService(service);*/
     }
 
 

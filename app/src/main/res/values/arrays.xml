@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources >
+    <string-array name="nextclass_quick_setting_name">
+        <item>@string/home_name</item>
+        <item>@string/setting_name</item>
+        <item>@string/light_name</item>
+        <item>@string/wifi_name</item>
+        <item>@string/bluetooth_name</item>
+        <item>@string/mobile_name</item>
+        <item>@string/protect_eyes_name</item>
+        <item>@string/float_name</item>
+        <item>@string/mic_name</item>
+        <item>@string/mute_name</item>
+    </string-array>
+</resources>

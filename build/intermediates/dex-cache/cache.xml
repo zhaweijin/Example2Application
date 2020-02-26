@@ -3,57 +3,363 @@
 
     <item
         is-multidex="true"
-        jar="/Users/dm-md/AndroidStudioProjects/Example2Application/app/libs/classes_50.jar"
-        jumboMode="true"
+        jar="/Users/dm-md/.gradle/caches/modules-2/files-2.1/com.jakewharton/butterknife-annotations/8.1.0/d6854f42bfb4098d3d2358d93201307b9f1cc95d/butterknife-annotations-8.1.0.jar"
+        jumboMode="false"
         optimize="true"
         revision="25.0.2"
-        sha1="02338413fa37152b53dca3de4b2cb460abac3aab">
-        <dex dex="/Users/dm-md/AndroidStudioProjects/Example2Application/app/build/intermediates/transforms/dex/flavors_default/debug/folders/1000/2/classes_50_d39e7743b4318eba98c7a20c46da99acf20db458/classes.dex" />
+        sha1="d6854f42bfb4098d3d2358d93201307b9f1cc95d">
+        <dex dex="/Users/dm-md/AndroidStudioProjects/Example2Application/app/build/intermediates/transforms/dex/debug/folders/1000/10/butterknife-annotations-8.1.0_14d62db7c777171eb8f8bb9588ebbaac5b7f7e53/classes.dex" />
     </item>
     <item
         is-multidex="true"
-        jar="/Users/dm-md/AndroidStudioProjects/Example2Application/app/libs/classes_42.jar"
-        jumboMode="true"
+        jar="/Users/dm-md/.gradle/caches/modules-2/files-2.1/com.squareup.retrofit2/adapter-rxjava2/2.3.0/f436637f9500ab5b8bc32afe556373180894b4a5/adapter-rxjava2-2.3.0.jar"
+        jumboMode="false"
         optimize="true"
         revision="25.0.2"
-        sha1="f15c22adeabcecef9d588c36182aac523a76f956">
-        <dex dex="/Users/dm-md/AndroidStudioProjects/Example2Application/app/build/intermediates/transforms/dex/flavors_default/debug/folders/1000/2/classes_42_2416654bd7687c505d2d6771d77074d9dc1ef21d/classes.dex" />
+        sha1="f436637f9500ab5b8bc32afe556373180894b4a5">
+        <dex dex="/Users/dm-md/AndroidStudioProjects/Example2Application/app/build/intermediates/transforms/dex/debug/folders/1000/10/adapter-rxjava2-2.3.0_dde4819381704a485368fdaca76f7dccef292016/classes.dex" />
     </item>
     <item
         is-multidex="true"
-        jar="/Applications/Android Studio2.3.app/Contents/gradle/m2repository/com/google/guava/guava/18.0/guava-18.0.jar"
-        jumboMode="true"
+        jar="/Users/dm-md/.gradle/caches/modules-2/files-2.1/javax.inject/javax.inject/1/6975da39a7040257bd51d21a231b76c915872d38/javax.inject-1.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="6975da39a7040257bd51d21a231b76c915872d38">
+        <dex dex="/Users/dm-md/AndroidStudioProjects/Example2Application/app/build/intermediates/transforms/dex/debug/folders/1000/10/javax.inject-1_22f1a30b9726f2826c2da525fdbfc36fae116c6b/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/dm-md/.android/build-cache/2989204446bf73c659cf58d886542747d082e5ba/output/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="4119ea97a7191ff9b8f33b534ea220448f62f491">
+        <dex dex="/Users/dm-md/AndroidStudioProjects/Example2Application/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_e0b0824fb26d560ee0d6d19c628ec5560667756d/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/dm-md/.gradle/caches/modules-2/files-2.1/com.google.dagger/dagger-compiler/2.0.2/1170f75c1ce293f80755bbc9fcd60e0765022bd0/dagger-compiler-2.0.2.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="1170f75c1ce293f80755bbc9fcd60e0765022bd0">
+        <dex dex="/Users/dm-md/AndroidStudioProjects/Example2Application/app/build/intermediates/transforms/dex/debug/folders/1000/10/dagger-compiler-2.0.2_0f936ad9b6edbab9848ff3009259bda91c9cafc7/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/dm-md/.android/build-cache/870c11932e3c4ebea6d9ef3d5eb920b94498010d/output/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="d9db09e57e27a32558bb3c97a4cf54c94bd05348">
+        <dex dex="/Users/dm-md/AndroidStudioProjects/Example2Application/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_5d8f3f8668c0c115ee4f139ac079d282aa7edcf1/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/dm-md/.android/build-cache/9fc18b5a8d62db98b3b3ed3cbf25e27e1da80292/output/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="4a26a1154d053ab11aaf4c3967c42a4d66390991">
+        <dex dex="/Users/dm-md/AndroidStudioProjects/Example2Application/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_977b424a6b214bbe66d525ffe47f172d3ef4c2de/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/dm-md/.gradle/caches/modules-2/files-2.1/com.github.bumptech.glide/glide/3.7.0/9e9eeaf9948ee4d6c3ab354e8dc14368f16994a4/glide-3.7.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="9e9eeaf9948ee4d6c3ab354e8dc14368f16994a4">
+        <dex dex="/Users/dm-md/AndroidStudioProjects/Example2Application/app/build/intermediates/transforms/dex/debug/folders/1000/10/glide-3.7.0_2d8fc1c8d097eb5690d0c03b995814a7cd991d5b/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/dm-md/.gradle/caches/modules-2/files-2.1/io.reactivex.rxjava2/rxjava/2.1.5/1de589f16cd088be91ca6877cb836529276a6bb2/rxjava-2.1.5.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="1de589f16cd088be91ca6877cb836529276a6bb2">
+        <dex dex="/Users/dm-md/AndroidStudioProjects/Example2Application/app/build/intermediates/transforms/dex/debug/folders/1000/10/rxjava-2.1.5_cb51ae894fd4ce536b9db680fa5b63e899cd2b08/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/dm-md/.android/build-cache/70a423cbe3cc369fa0611c866861c683725d07bb/output/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="95519720620b553f63afc789beba9ad582807f7c">
+        <dex dex="/Users/dm-md/AndroidStudioProjects/Example2Application/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_f5b87f7ce2af5f4a56db12c1abb4b54ba3530ce3/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/dm-md/.android/build-cache/ec89145430b3145e0a6b0648272ea9fadacaccda/output/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="150252b33b00274cc868578ade018fda0d43a3eb">
+        <dex dex="/Users/dm-md/AndroidStudioProjects/Example2Application/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_2a6773b31096a617c183cea80ec7d38aa2b03bbd/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/dm-md/.android/build-cache/a9eb125be9a7d6e7047e1edd34d8645591b9413a/output/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="d7c42c80f6509b9ea4db28ca7859ffae08ec5741">
+        <dex dex="/Users/dm-md/AndroidStudioProjects/Example2Application/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_1629644c4174661d2c512333d9e43d1ae8891c12/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/dm-md/.android/build-cache/39236f5d172190c38c0f68ee972fbfb8e591612e/output/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="d4ab8678882571a0a6f19c47a826ecbce5b4f42b">
+        <dex dex="/Users/dm-md/AndroidStudioProjects/Example2Application/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_82ff1678489d61d4edc4eb31fb163b43a093069a/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/dm-md/.android/build-cache/f83344a6a339c441e819e31b7d1f25988d5d3291/output/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="6666dd525c3da197e7d07f4f23ef5fc7881a697b">
+        <dex dex="/Users/dm-md/AndroidStudioProjects/Example2Application/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_eec4581463ac5669e2dcafd8584f8e1cf5cc9bd4/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/dm-md/.gradle/caches/modules-2/files-2.1/com.squareup.okhttp3/logging-interceptor/3.9.0/3bf7f8d6a20c90ffe9fc3f3c9118193c7720ecf1/logging-interceptor-3.9.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="3bf7f8d6a20c90ffe9fc3f3c9118193c7720ecf1">
+        <dex dex="/Users/dm-md/AndroidStudioProjects/Example2Application/app/build/intermediates/transforms/dex/debug/folders/1000/10/logging-interceptor-3.9.0_13944ce32d5deebe0c2283013b966da4161428d2/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/dm-md/.android/build-cache/5faf5189c55892e9770ce9d159b89450e2c26785/output/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="052f5f840f21174a3ecf6544130194e2652cbb73">
+        <dex dex="/Users/dm-md/AndroidStudioProjects/Example2Application/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_40a62dbd9bb883caaaa886297bce1e0c9a0cd139/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/dm-md/.android/build-cache/6ffd499c28a43ebee4a862eea2d91b5078d49589/output/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="da27a32db6af8954ee8061537c7d476fcb1df46f">
+        <dex dex="/Users/dm-md/AndroidStudioProjects/Example2Application/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_37ae6f6d4747e25a86949854a882fc0b5521d93a/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/dm-md/.gradle/caches/modules-2/files-2.1/com.squareup.retrofit2/converter-gson/2.3.0/9e09011e9767bb76b5e27c9b8223476b93b14631/converter-gson-2.3.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="9e09011e9767bb76b5e27c9b8223476b93b14631">
+        <dex dex="/Users/dm-md/AndroidStudioProjects/Example2Application/app/build/intermediates/transforms/dex/debug/folders/1000/10/converter-gson-2.3.0_9ee38af240e24082d867eeca1c812132bfe4bf36/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/dm-md/.android/build-cache/d03c71d3dbe89eefba92a06002d9b5d41fd05f0e/output/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="880cc4796d37f425d4cd5aa9d2d48ac5e2a1eb2f">
+        <dex dex="/Users/dm-md/AndroidStudioProjects/Example2Application/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_adec27dbe1ea242ec89dd62b04878c166463568d/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/dm-md/.android/build-cache/3c84c14b6ca4fcfd75a18ec78aecd2bff7fa639a/output/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="efb8cb62d47d157c29d1521daac7eefd4cb881ee">
+        <dex dex="/Users/dm-md/AndroidStudioProjects/Example2Application/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_fc49e45bddc3610ce0f78c2386ac131c031ab34d/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/dm-md/.gradle/caches/modules-2/files-2.1/com.google.dagger/dagger/2.0.2/de8416eda7b2fd7c25836b140c39e1cbf10542f6/dagger-2.0.2.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="de8416eda7b2fd7c25836b140c39e1cbf10542f6">
+        <dex dex="/Users/dm-md/AndroidStudioProjects/Example2Application/app/build/intermediates/transforms/dex/debug/folders/1000/10/dagger-2.0.2_d04647b3dfe6274c0e616d40592727cee2e664a2/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/dm-md/.android/build-cache/b9fe1b8f753946e3ab3f97f12ba275515599fe6c/output/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="df451c6f391e3e32022fc964ed87bd57a5869128">
+        <dex dex="/Users/dm-md/AndroidStudioProjects/Example2Application/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_e564855e8044dafa154411c7c78baa62353b6813/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/dm-md/.android/build-cache/7861adaf4dc60343dc3c7c751e0a65ad21403382/output/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="44ee06abb66da30f5855e6bf54574e64cdcd982a">
+        <dex dex="/Users/dm-md/AndroidStudioProjects/Example2Application/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_9e97bec43810d3c170d0caca4ff94c02f072fa6c/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/dm-md/.gradle/caches/modules-2/files-2.1/org.jsoup/jsoup/1.10.2/33ee82e324f4b1e40167f3dc5e01234a1c5cab61/jsoup-1.10.2.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="33ee82e324f4b1e40167f3dc5e01234a1c5cab61">
+        <dex dex="/Users/dm-md/AndroidStudioProjects/Example2Application/app/build/intermediates/transforms/dex/debug/folders/1000/10/jsoup-1.10.2_f7054b8b06747141073473c004b12285106be81b/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/dm-md/.gradle/caches/modules-2/files-2.1/com.squareup.retrofit2/retrofit/2.3.0/bcacde6a8ccedcc56c127403d26b76072fe6214d/retrofit-2.3.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="bcacde6a8ccedcc56c127403d26b76072fe6214d">
+        <dex dex="/Users/dm-md/AndroidStudioProjects/Example2Application/app/build/intermediates/transforms/dex/debug/folders/1000/10/retrofit-2.3.0_68d5338e97fe4216bc0f7c2c3049733e933fd907/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/dm-md/.gradle/caches/modules-2/files-2.1/com.google.guava/guava/18.0/cce0823396aa693798f8882e64213b1772032b09/guava-18.0.jar"
+        jumboMode="false"
         optimize="true"
         revision="25.0.2"
         sha1="cce0823396aa693798f8882e64213b1772032b09">
-        <dex dex="/Users/dm-md/AndroidStudioProjects/Example2Application/app/build/intermediates/transforms/dex/flavors_default/debug/folders/1000/10/guava-18.0_aac2e8000bad52b1e018ac6ef736286d6eb03d71/classes.dex" />
+        <dex dex="/Users/dm-md/AndroidStudioProjects/Example2Application/app/build/intermediates/transforms/dex/debug/folders/1000/10/guava-18.0_c98e9dc41022e6bdbec2cf9e8cea0e359fe42787/classes.dex" />
     </item>
     <item
         is-multidex="true"
-        jar="/Users/dm-md/AndroidStudioProjects/Example2Application/app/build/intermediates/incremental-runtime-classes/flavors_default/debug/instant-run.jar"
-        jumboMode="true"
+        jar="/Users/dm-md/.gradle/caches/modules-2/files-2.1/com.trello.rxlifecycle2/rxlifecycle/2.1.0/ceb847e21d527d2ef285cd3dd187379220ffb223/rxlifecycle-2.1.0.jar"
+        jumboMode="false"
         optimize="true"
         revision="25.0.2"
-        sha1="c82741bc129dd5f99f11a4ab8666ae24262053b6">
-        <dex dex="/Users/dm-md/AndroidStudioProjects/Example2Application/app/build/intermediates/transforms/dex/flavors_default/debug/folders/1000/10000/instant-run_3ffc4e0234bccd513b5514e2ffc93ca206b6a507/classes.dex" />
+        sha1="ceb847e21d527d2ef285cd3dd187379220ffb223">
+        <dex dex="/Users/dm-md/AndroidStudioProjects/Example2Application/app/build/intermediates/transforms/dex/debug/folders/1000/10/rxlifecycle-2.1.0_f75d1aea35276f9d510d36cbe536827addddfb48/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/dm-md/.android/build-cache/567c94d20238bb6532516f5bb6a241ff7f68f2d2/output/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="e20f3c5e0e1bdbcf0edad8b16771497b36f68875">
+        <dex dex="/Users/dm-md/AndroidStudioProjects/Example2Application/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_d8e133dfe705db6a138e1dd4efe7b7dcd44bbe11/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/dm-md/.android/build-cache/07e280abe624b67d944471a77690debc78f362bf/output/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="45f697922e6f072daa12f8a2995dc77ab03c11da">
+        <dex dex="/Users/dm-md/AndroidStudioProjects/Example2Application/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_ba25f2c31656fdccdff4df842b71b24ca648f282/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/dm-md/Library/Android/sdk/extras/m2repository/com/android/support/constraint/constraint-layout-solver/1.0.2/constraint-layout-solver-1.0.2.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="b9cd8fc6bd15cb915735d34535db30ece0c44603">
+        <dex dex="/Users/dm-md/AndroidStudioProjects/Example2Application/app/build/intermediates/transforms/dex/debug/folders/1000/10/constraint-layout-solver-1.0.2_5fa6cfa611a90ceb8140dee4e12728c570a5c5bf/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/dm-md/.gradle/caches/modules-2/files-2.1/org.reactivestreams/reactive-streams/1.0.1/1b1c911686eb40179219466e6a59b634b9d7a748/reactive-streams-1.0.1.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="1b1c911686eb40179219466e6a59b634b9d7a748">
+        <dex dex="/Users/dm-md/AndroidStudioProjects/Example2Application/app/build/intermediates/transforms/dex/debug/folders/1000/10/reactive-streams-1.0.1_fd350d54fdbf07f4644a30a3374297074e5167d9/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/dm-md/Library/Android/sdk/extras/android/m2repository/com/android/support/support-annotations/25.3.1/support-annotations-25.3.1.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="bf8841d29fa39e077730e7a91222c2ce269fa7c9">
+        <dex dex="/Users/dm-md/AndroidStudioProjects/Example2Application/app/build/intermediates/transforms/dex/debug/folders/1000/10/support-annotations-25.3.1_674eb423e6288d6000b8cd9cfc557ee366121d85/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/dm-md/.gradle/caches/modules-2/files-2.1/com.google.code.gson/gson/2.8.2/3edcfe49d2c6053a70a2a47e4e1c2f94998a49cf/gson-2.8.2.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="3edcfe49d2c6053a70a2a47e4e1c2f94998a49cf">
+        <dex dex="/Users/dm-md/AndroidStudioProjects/Example2Application/app/build/intermediates/transforms/dex/debug/folders/1000/10/gson-2.8.2_92cc496d9399a619de11c0702745969c6b3b093c/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/dm-md/.android/build-cache/b481931d513ce5e1ca22719e780a6caf46cd2ae5/output/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="a1589af4546e0299f3e0c77de3215ecfd3a0e19d">
+        <dex dex="/Users/dm-md/AndroidStudioProjects/Example2Application/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_bda1f0992ca5fbdb68e396b2d3cab21cf65ba8b2/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/dm-md/.gradle/caches/modules-2/files-2.1/com.google.dagger/dagger-producers/2.0-beta/80276338d1c2542ebebac542b535d1ecd48a3fd7/dagger-producers-2.0-beta.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="80276338d1c2542ebebac542b535d1ecd48a3fd7">
+        <dex dex="/Users/dm-md/AndroidStudioProjects/Example2Application/app/build/intermediates/transforms/dex/debug/folders/1000/10/dagger-producers-2.0-beta_386bf9be5d3560e6313c452f9950e29eed457642/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/dm-md/.gradle/caches/modules-2/files-2.1/com.squareup.okhttp3/okhttp/3.9.0/1b6c10b5120995a7542c1a31b7828fb8593c8ba/okhttp-3.9.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="01b6c10b5120995a7542c1a31b7828fb8593c8ba">
+        <dex dex="/Users/dm-md/AndroidStudioProjects/Example2Application/app/build/intermediates/transforms/dex/debug/folders/1000/10/okhttp-3.9.0_ca3be74d74dc8e282f69f8a6f3fb1bf278298c7b/classes.dex" />
     </item>
     <item
         is-multidex="true"
         jar="/Users/dm-md/AndroidStudioProjects/Example2Application/app/libs/hiveview_eth_manager_rtk.jar"
-        jumboMode="true"
+        jumboMode="false"
         optimize="true"
         revision="25.0.2"
         sha1="ccc700ea11e7b16866e8e12a2d62fdeb046d8afd">
-        <dex dex="/Users/dm-md/AndroidStudioProjects/Example2Application/app/build/intermediates/transforms/dex/flavors_default/debug/folders/1000/2/hiveview_eth_manager_rtk_09620cf8eb9e946a5033742b518b209fc9c8bb8d/classes.dex" />
+        <dex dex="/Users/dm-md/AndroidStudioProjects/Example2Application/app/build/intermediates/transforms/dex/debug/folders/1000/2/hiveview_eth_manager_rtk_09620cf8eb9e946a5033742b518b209fc9c8bb8d/classes.dex" />
     </item>
     <item
         is-multidex="true"
-        jar="/Users/dm-md/AndroidStudioProjects/Example2Application/app/build/intermediates/incremental-classes/flavors_default/debug/instant-run-bootstrap.jar"
-        jumboMode="true"
+        jar="/Users/dm-md/.android/build-cache/7cb79453ba2c9ebfeccb0e72cb4d37e4b7796354/output/jars/classes.jar"
+        jumboMode="false"
         optimize="true"
         revision="25.0.2"
-        sha1="a05583f3098f12f8a7799181cc191b5c4f811d40">
-        <dex dex="/Users/dm-md/AndroidStudioProjects/Example2Application/app/build/intermediates/transforms/dex/flavors_default/debug/folders/1000/10000/instant-run-bootstrap_dc79026fa783cf8f7dc552393713edc56c689fc4/classes.dex" />
+        sha1="6ef31f1555bb4cc513ec8d52711365a8b89f3600">
+        <dex dex="/Users/dm-md/AndroidStudioProjects/Example2Application/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_86d0d1d2ed66bbf8de03e81171bcf548efd03b7f/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/dm-md/.gradle/caches/modules-2/files-2.1/com.squareup.okio/okio/1.13.0/a9283170b7305c8d92d25aff02a6ab7e45d06cbe/okio-1.13.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="a9283170b7305c8d92d25aff02a6ab7e45d06cbe">
+        <dex dex="/Users/dm-md/AndroidStudioProjects/Example2Application/app/build/intermediates/transforms/dex/debug/folders/1000/10/okio-1.13.0_25ce3cf90cc05ff5043f2e4f94ee5f6d6471ac01/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/dm-md/.android/build-cache/ee05f671380a6e068f0331bad8c6c88fd6fda99d/output/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="47635644d0d5c103c1dd8360549eb9ba3225c7d3">
+        <dex dex="/Users/dm-md/AndroidStudioProjects/Example2Application/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_8a5c723c708f129161b11cda0c18aa0f8f47a855/classes.dex" />
     </item>
 
 </items>

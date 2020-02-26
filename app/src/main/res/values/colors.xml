@@ -7,4 +7,15 @@
 
     <color name="cardFront">#434850</color>
     <color name="cardBack">#bc4c4a</color>
+    <color name="ww">#eeeeee</color>
+
+
+    <color name="nextclass_seekbar_bg_color">#D3F6F6</color>
+    <color name="nextclass_seekbar_progress_color">#4BA1A4</color>
+
+    <color name="nextclass_thumb_unselect_color">#009688</color>
+    <color name="nextclass_thumb_selected_color">#02776C</color>
+
+    <color name="test_seekbar_bg_color">#323232</color>
+    <color name="test_seekbar_progress_color">#FFFFFF</color>
 </resources>

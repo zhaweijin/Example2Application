@@ -1,3 +1,22 @@
 <resources>
     <string name="app_name">Example2Application</string>
+
+
+    <string name="home_name">主页</string>
+    <string name="setting_name">设置</string>
+    <string name="light_name">亮度</string>
+    <string name="wifi_name">Wi-Fi</string>
+    <string name="bluetooth_name">蓝牙</string>
+    <string name="mobile_name">蜂窝</string>
+
+    <string name="protect_eyes_name">护眼模式</string>
+    <string name="float_name">悬浮按钮</string>
+    <string name="mic_name">禁麦</string>
+    <string name="mute_name">静音</string>
+    <string name="hdmi_name">HDMI</string>
+    <string name="usb_name">USB</string>
+
+    <string name="brightness_title">屏幕亮度</string>
+    <string name="auto_switch_brightness">自动调节屏幕亮度</string>
+    <string name="brightness">亮度</string>
 </resources>

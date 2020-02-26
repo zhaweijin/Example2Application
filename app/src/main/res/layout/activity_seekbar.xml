@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:clipChildren="false"
+    android:orientation="vertical"
+    android:background="@android:color/darker_gray"
+    android:id="@+id/click"
+    tools:context="com.example2.test.main.MainActivity">
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Hello World!"
+        android:id="@+id/test"
+        android:textColor="@android:color/holo_red_light"
+        android:visibility="gone"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+
+
+    <ImageView
+        android:id="@+id/image"
+        android:visibility="gone"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+
+    <SeekBar
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="100dp"
+        android:progressDrawable="@drawable/nextclass_seekbar_bg"
+        android:maxHeight="9dp"
+        android:max="100"
+        android:progress="80"
+        android:thumb="@drawable/seek_bar_thumb"/>
+
+
+
+    <SeekBar
+        android:id="@+id/timeline"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="50dp"
+        android:focusable="true"
+        android:maxHeight="4dp"
+        android:minHeight="4dp"
+        android:paddingLeft="16dip"
+        android:paddingRight="16dip"
+        android:progressDrawable="@drawable/po_seekbar"
+        android:thumb="@drawable/seekbar_thumb"></SeekBar>
+
+
+    <SeekBar
+        android:id="@+id/seekbar2"
+        android:layout_marginTop="50dp"
+        android:splitTrack="false"
+        android:maxHeight="7dp"
+        android:progressDrawable="@drawable/test_seekbar_bg"
+        android:thumb="@drawable/thumb"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+
+    <com.android.systemui.nextclass.NextclassQsPannel
+        android:layout_centerHorizontal="true"
+        android:visibility="gone"
+        android:background="@drawable/nextclass_quick_statusbar_bg"
+        android:layout_width="500dp"
+        android:layout_height="255dp">
+    </com.android.systemui.nextclass.NextclassQsPannel>
+
+
+
+
+
+
+</LinearLayout>

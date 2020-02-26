@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/grobal"
+    android:layout_width="520dp"
+    android:layout_height="256dp"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:id="@+id/layout_center"
+        android:layout_width="520dp"
+        android:layout_height="256dp"
+        android:layout_centerInParent="true"
+        android:background="@android:color/darker_gray"
+        android:orientation="vertical">
+
+
+        <SeekBar
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="50dp"
+            android:progressDrawable="@drawable/nextclass_seekbar_bg"
+            android:maxHeight="9dp"
+            android:max="100"
+            android:progress="30"
+            android:thumb="@drawable/seek_bar_thumb"/>
+
+
+
+        <SeekBar
+            android:id="@+id/timeline"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="50dp"
+            android:focusable="true"
+            android:maxHeight="4dp"
+            android:minHeight="4dp"
+            android:paddingLeft="16dip"
+            android:paddingRight="16dip"
+            android:progressDrawable="@drawable/po_seekbar"
+            android:thumb="@drawable/seekbar_thumb"></SeekBar>
+
+
+
+        <SeekBar
+            android:id="@+id/seekbar2"
+            android:layout_marginTop="50dp"
+            android:splitTrack="false"
+            android:maxHeight="7dp"
+            android:progressDrawable="@drawable/test_seekbar_bg"
+            android:thumb="@drawable/thumb"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+
+    </LinearLayout>
+
+
+</RelativeLayout>

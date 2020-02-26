@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+    <SeekBar
+        android:id="@+id/seekbar"
+        android:background="@android:color/transparent"
+        android:splitTrack="false"
+        android:maxHeight="6dp"
+        android:thumbOffset="0dp"
+        android:progressDrawable="@drawable/nextclass_seekbar_bg"
+        android:thumb="@drawable/nextclass_seekbar_thumb"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+</LinearLayout>
