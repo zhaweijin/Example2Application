@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+
+    <!-- 最外层一定要是FrameLayout，
+    如果是 ReletiveLayout存在隐患，比如放大dialog的宽，高度会显示不正常 -->
+
+
+    <FrameLayout
+        android:layout_width="800dp"
+        android:layout_height="1080dp"
+        android:layout_gravity="center"
+        android:id="@+id/save"
+        android:background="@android:color/white">
+
+
+    </FrameLayout>
+
+</FrameLayout>

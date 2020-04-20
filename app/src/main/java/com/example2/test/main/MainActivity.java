@@ -20,15 +20,22 @@ import android.widget.Toast;
 
 
 import com.example2.test.R;
+import com.example2.test.base.BaseActivity;
+import com.example2.test.dialog.ConfirmDialog;
 import com.example2.test.permission.RequestPermission;
 import com.example2.test.webview.WebTest;
 
-public class MainActivity extends Activity {
+import butterknife.BindView;
+
+public class MainActivity extends BaseActivity {
 
 
 
     private static final String TAG = "main";
     private Object o = new Object();
+
+    @BindView(R.id.test)
+    Button test;
 
 
     public static void startAppFromName(Context context, String packageName, String activityName){
@@ -83,7 +90,7 @@ public class MainActivity extends Activity {
         Log.v("test","w="+w+",h="+h);
 
 
-        Button test = (Button) findViewById(R.id.test);
+        //Button test = (Button) findViewById(R.id.test);
         test.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
@@ -95,6 +102,8 @@ public class MainActivity extends Activity {
 
             }
         });
+
+
 
         //WebTest.launch(this);
 
